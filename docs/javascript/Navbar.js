@@ -9,7 +9,7 @@ navbar.innerHTML = `
             id="brandLogo"
             src="/docs/assets/logo.png"
             alt="Logo"
-            class="h-14 shrink-0 rounded-2xl object-cover ring-1"
+            class="h-14 shrink-0 rounded-2xl object-cover"
           />
         </a>
 
@@ -56,11 +56,12 @@ navbar.innerHTML = `
   >
     <div class="flex items-center justify-between px-5 py-5">
       <a href="index.html" class="inline-flex items-center gap-3">
-        <img
-          src="./docs/images/logo.png"
-          alt="Logo"
-          class="h-14 shrink-0 rounded-2xl object-cover ring-1 ring-black/10"
-        />
+          <img
+            id="brandLogo"
+            src="/docs/assets/logo.png"
+            alt="Logo"
+            class="h-14 shrink-0 rounded-2xl object-cover"
+          />
       </a>
 
       <button
